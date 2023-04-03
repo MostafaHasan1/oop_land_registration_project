@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.LawyerDashboardSceneController">
+   <children>
+      <AnchorPane prefHeight="82.0" prefWidth="200.0" style="-fx-background-color: d5bdaf;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutY="82.0" prefHeight="379.0" prefWidth="188.0" style="-fx-background-color: e3d5ca;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <ListView fx:id="lawyerEventList" fixedCellSize="-15.0" layoutY="38.0" prefHeight="305.0" prefWidth="200.0" style="-fx-background-color: edede9;" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="262.0" layoutY="112.0" prefHeight="152.0" prefWidth="200.0" style="-fx-background-color: f5ebe0;" text="In progress" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="568.0" layoutY="110.0" prefHeight="152.0" prefWidth="200.0" style="-fx-background-color: f5ebe0;" text="Pending" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="502.0" layoutY="110.0" prefHeight="160.0" prefWidth="12.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+      <Label layoutX="262.0" layoutY="198.0" prefHeight="57.0" prefWidth="31.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="568.0" layoutY="198.0" prefHeight="57.0" prefWidth="31.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

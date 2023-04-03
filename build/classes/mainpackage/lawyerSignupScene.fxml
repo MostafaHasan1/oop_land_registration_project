@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <ImageView fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/lawyerSignupbc2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="138.0" layoutX="730.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/law_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="612.0" layoutY="28.0" text="Signup for Lawyer">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="401.0" text="&lt;&lt;Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.48471003770828247" green="0.6433154940605164" blue="0.9605262875556946" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField layoutX="50.0" layoutY="40.0" prefHeight="33.0" prefWidth="170.0" promptText="First Name" />
+      <TextField layoutX="50.0" layoutY="85.0" prefHeight="33.0" prefWidth="170.0" promptText="Last Name" />
+      <TextField layoutX="50.0" layoutY="130.0" prefHeight="33.0" prefWidth="170.0" promptText="Email" />
+      <TextField layoutX="253.0" layoutY="85.0" prefHeight="33.0" prefWidth="170.0" promptText="Phone Number" />
+      <TextField layoutX="253.0" layoutY="40.0" prefHeight="33.0" prefWidth="170.0" promptText="Enrollment Number" />
+      <TextField layoutX="253.0" layoutY="130.0" prefHeight="33.0" prefWidth="170.0" promptText="NID Number" />
+      <ComboBox layoutX="253.0" layoutY="179.0" prefHeight="33.0" prefWidth="170.0" promptText="Select City" />
+      <ComboBox layoutX="50.0" layoutY="230.0" prefHeight="33.0" prefWidth="170.0" promptText="Year of Experiences" />
+      <ComboBox layoutX="50.0" layoutY="179.0" prefHeight="33.0" prefWidth="170.0" promptText="Select Division" />
+      <Button layoutX="50.0" layoutY="284.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="62.0" style="-fx-background-color: DARKSEAGREEN;" text="Signup" />
+      <Label layoutX="253.0" layoutY="230.0" prefHeight="33.0" prefWidth="52.0" text="Gender">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="314.0" layoutY="238.0" mnemonicParsing="false" text="Male" />
+      <RadioButton layoutX="383.0" layoutY="238.0" mnemonicParsing="false" text="Female" />
+      <RadioButton layoutX="314.0" layoutY="267.0" mnemonicParsing="false" text="Others" />
+   </children>
+</AnchorPane>
