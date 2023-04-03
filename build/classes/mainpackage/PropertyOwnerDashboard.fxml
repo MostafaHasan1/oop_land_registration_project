@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <ScrollBar layoutX="886.0" layoutY="3.0" orientation="VERTICAL" prefHeight="460.0" prefWidth="14.0" />
+      <Separator layoutX="146.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="463.0" prefWidth="7.0" />
+      <MenuButton centerShape="false" layoutY="221.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton" AnchorPane.rightAnchor="751.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="99.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="124.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="149.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="174.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="199.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

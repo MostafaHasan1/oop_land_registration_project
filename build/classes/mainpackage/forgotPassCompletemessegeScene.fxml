@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="mainpackage.ForgotPassCompletemessegeSceneController">
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.ForgotPassCompletemessegeSceneController">
    <children>
       <ImageView fitHeight="460.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
          <image>

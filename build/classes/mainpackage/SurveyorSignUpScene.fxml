@@ -12,7 +12,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="468.0" fitWidth="900.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="460.0" fitWidth="900.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/surlogo.jpg" />
          </image>
