@@ -4,7 +4,9 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.GaussianBlur?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,10 +14,13 @@
 
 <AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="460.0" fitWidth="900.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="460.0" fitWidth="900.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/surlogo.jpg" />
          </image>
+         <effect>
+            <GaussianBlur radius="5.0" />
+         </effect>
       </ImageView>
       <TextField alignment="CENTER" layoutX="169.0" layoutY="111.0" promptText="Name" />
       <TextField alignment="TOP_CENTER" layoutX="168.0" layoutY="161.0" promptText="NID" />
@@ -24,24 +29,24 @@
       <TextField alignment="CENTER" layoutX="591.0" layoutY="111.0" promptText="Mobile Number" />
       <ComboBox layoutX="168.0" layoutY="206.0" prefWidth="150.0" promptText="Gender" />
       <DatePicker layoutX="591.0" layoutY="161.0" promptText="Date of Birth" />
-      <TextField alignment="CENTER" layoutX="383.0" layoutY="250.0" promptText="Password" />
       <TextField alignment="CENTER" layoutX="383.0" layoutY="206.0" promptText="E-mail Address" />
-      <Button layoutX="415.0" layoutY="314.0" mnemonicParsing="false" text="Sign Up" textAlignment="CENTER" textFill="#0a6fa6">
+      <Button layoutX="719.0" layoutY="383.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="92.0" text="Sign Up" textAlignment="CENTER" textFill="#0a6fa6">
          <font>
-            <Font name="Gabriola" size="22.0" />
+            <Font name="Gabriola" size="18.0" />
          </font>
       </Button>
       <TextField alignment="TOP_CENTER" layoutX="168.0" layoutY="250.0" promptText="Street Address" />
       <TextField alignment="CENTER" layoutX="383.0" layoutY="111.0" promptText="City" />
-      <Label layoutX="369.0" layoutY="37.0" prefHeight="55.0" prefWidth="262.0" text="Surveyors" textFill="WHITE">
+      <Label layoutX="360.0" layoutY="36.0" prefHeight="55.0" prefWidth="262.0" text="Surveyors" textFill="WHITE">
          <font>
-            <Font name="Georgia" size="40.0" />
+            <Font name="Georgia Italic" size="40.0" />
          </font>
       </Label>
-      <Button layoutX="77.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="&lt; Back" textAlignment="CENTER" textFill="#000407">
+      <Button layoutX="77.0" layoutY="383.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="92.0" text="&lt; Back" textAlignment="CENTER" textFill="#000407">
          <font>
             <Font name="Arial" size="11.0" />
          </font>
       </Button>
+      <PasswordField layoutX="383.0" layoutY="250.0" promptText="Password" />
    </children>
 </AnchorPane>
