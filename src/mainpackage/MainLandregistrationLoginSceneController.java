@@ -16,6 +16,8 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -28,6 +30,10 @@ public class MainLandregistrationLoginSceneController implements Initializable {
 
     @FXML
     private ComboBox<String> chooseUsertypeComboBox;
+    @FXML
+    private TextField loginGmailIdField;
+    @FXML
+    private PasswordField loginPasswordField;
 
     /**
      * Initializes the controller class.
@@ -45,12 +51,6 @@ public class MainLandregistrationLoginSceneController implements Initializable {
         );
     }
     
-    @FXML
-    private void handleSceneComboBoxAction(ActionEvent event) {
-    
-    // code to change the scene based on the selected item
-    
-    }
 
     @FXML
     private void loginButtonOnClick(ActionEvent event) throws IOException {
@@ -112,7 +112,9 @@ public class MainLandregistrationLoginSceneController implements Initializable {
                 lawyerMenuListStage.setTitle("Lawyer");
                 lawyerMenuListStage.setScene(lawyerMenuListScene);
                 lawyerMenuListStage.show(); */
-                
+            default :
+                 System.out.println("Select your user type");
+                          
         }
     }
 
@@ -124,6 +126,10 @@ public class MainLandregistrationLoginSceneController implements Initializable {
         lawyerMenuListStage.setTitle("Lawyer");
         lawyerMenuListStage.setScene(lawyerMenuListScene);
         lawyerMenuListStage.show();
+    }
+
+    @FXML
+    private void forgotPassowrdOnClick(MouseEvent event) {
     }
     
 }
