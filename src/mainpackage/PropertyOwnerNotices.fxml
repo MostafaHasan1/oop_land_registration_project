@@ -5,6 +5,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -12,12 +13,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ScrollBar layoutX="898.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="14.0" />
-      <Separator layoutX="148.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="8.0" />
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="313.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
+      <ScrollBar layoutX="896.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="14.0" />
+      <Separator layoutX="148.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="7.0" />
+      <MenuButton centerShape="false" layoutY="319.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -26,69 +26,74 @@
             <Insets />
          </opaqueInsets>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="191.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
+      <MenuButton centerShape="false" layoutY="196.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="1.0" layoutY="216.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
+      <MenuButton centerShape="false" layoutY="221.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="241.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
+      <MenuButton centerShape="false" layoutY="246.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="266.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
+      <MenuButton centerShape="false" layoutY="271.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="291.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
+      <MenuButton centerShape="false" layoutY="296.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <ImageView fitHeight="190.0" fitWidth="779.0" layoutX="152.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="193.0" fitWidth="744.0" layoutX="152.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/Banner-738x280_04.png" />
+            <Image url="@../../../../Banner-738x280_04.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/download.png" />
+            <Image url="@../../../../download.png" />
          </image>
       </ImageView>
-      <Text layoutX="171.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notices" wrappingWidth="190.634765625">
+      <Text layoutX="173.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notices" wrappingWidth="234.634765625">
          <font>
             <Font name="Symbol" size="30.0" />
          </font>
       </Text>
-      <Text layoutX="-21.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
-      <ToggleButton contentDisplay="RIGHT" layoutX="20.0" layoutY="424.0" mnemonicParsing="false">
+      <ToggleButton contentDisplay="RIGHT" layoutX="21.0" layoutY="451.0" mnemonicParsing="false">
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/back.png" />
+                  <Image url="@../../../../home.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
-      <ToggleButton contentDisplay="RIGHT" layoutX="92.0" layoutY="422.0" mnemonicParsing="false">
+      <ToggleButton contentDisplay="RIGHT" layoutX="92.0" layoutY="451.0" mnemonicParsing="false">
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/home.png" />
+                  <Image url="@../../../../back.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
+      <TextArea layoutX="429.0" layoutY="258.0" prefHeight="101.0" prefWidth="190.0" text="December:" />
+      <TextArea layoutX="195.0" layoutY="258.0" prefHeight="101.0" prefWidth="190.0" text="November:" />
+      <TextArea layoutX="672.0" layoutY="258.0" prefHeight="101.0" prefWidth="190.0" text="January:" />
+      <TextArea layoutX="195.0" layoutY="377.0" prefHeight="101.0" prefWidth="190.0" text="Februray:" />
+      <TextArea layoutX="429.0" layoutY="377.0" prefHeight="101.0" prefWidth="190.0" text="March:" />
+      <TextArea layoutX="672.0" layoutY="376.0" prefHeight="101.0" prefWidth="190.0" text="April:" />
    </children>
 </AnchorPane>

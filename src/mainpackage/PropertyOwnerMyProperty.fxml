@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollBar?>
@@ -13,10 +14,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ScrollBar layoutX="896.0" layoutY="13.0" orientation="VERTICAL" prefHeight="460.0" prefWidth="14.0" />
+      <ScrollBar layoutX="896.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="14.0" />
       <Separator layoutX="146.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="8.0" />
       <MenuButton centerShape="false" layoutY="313.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
          <items>
@@ -33,7 +33,7 @@
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="-1.0" layoutY="216.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
+      <MenuButton centerShape="false" layoutY="216.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -59,12 +59,12 @@
       </MenuButton>
       <ImageView fitHeight="190.0" fitWidth="779.0" layoutX="150.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/Banner-738x280_04.png" />
+            <Image url="@../../../../Banner-738x280_04.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="146.0" fitWidth="149.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/download.png" />
+            <Image url="@../../../../download.png" />
          </image>
       </ImageView>
       <Text layoutX="169.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Properties" wrappingWidth="190.634765625">
@@ -72,15 +72,11 @@
             <Font name="Symbol" size="30.0" />
          </font>
       </Text>
-      <Text layoutX="-23.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
-      <TextArea layoutX="169.0" layoutY="264.0" prefHeight="62.0" prefWidth="200.0" text="Properties Owned:" />
-      <TextArea layoutX="407.0" layoutY="263.0" prefHeight="62.0" prefWidth="200.0" text="Area of land owned (sq. m):" />
-      <TextArea layoutX="649.0" layoutY="262.0" prefHeight="62.0" prefWidth="200.0" text="Properties for processing:" />
       <ToggleButton contentDisplay="RIGHT" layoutX="18.0" layoutY="424.0" mnemonicParsing="false">
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/back.png" />
+                  <Image url="@../../../../home.png" />
                </image>
             </ImageView>
          </graphic>
@@ -89,10 +85,34 @@
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/home.png" />
+                  <Image url="@../../../../back.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
+      <Text layoutX="176.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Properties Owned">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="417.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Square Feet Owned">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="721.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approx. Net Worth">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="178.0" layoutY="319.0" prefHeight="52.0" prefWidth="143.0" />
+      <TextArea layoutX="441.0" layoutY="318.0" prefHeight="52.0" prefWidth="143.0" />
+      <TextArea layoutX="726.0" layoutY="314.0" prefHeight="52.0" prefWidth="143.0" />
+      <Button layoutX="797.0" layoutY="412.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="82.0" text="Click Here" />
+      <Text layoutX="584.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Download detailed plans" wrappingWidth="201.7001953125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

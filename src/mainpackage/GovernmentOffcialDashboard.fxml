@@ -5,7 +5,6 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -13,7 +12,8 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
    <children>
       <ScrollBar layoutX="896.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="14.0" />
       <Separator layoutX="148.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="7.0" />
@@ -26,31 +26,31 @@
             <Insets />
          </opaqueInsets>
       </MenuButton>
-      <MenuButton centerShape="false" layoutY="196.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
+      <MenuButton centerShape="false" layoutY="196.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Owners">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutY="221.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
+      <MenuButton centerShape="false" layoutY="221.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Lands">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutY="246.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
+      <MenuButton centerShape="false" layoutY="246.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Security">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutY="271.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
+      <MenuButton centerShape="false" layoutY="271.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutY="296.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
+      <MenuButton centerShape="false" layoutY="296.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Data">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -66,7 +66,7 @@
             <Image url="@../../../../download.png" />
          </image>
       </ImageView>
-      <Text layoutX="173.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Fines and Penalties" wrappingWidth="305.634765625">
+      <Text layoutX="437.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!" wrappingWidth="136.634765625">
          <font>
             <Font name="Symbol" size="30.0" />
          </font>
@@ -89,13 +89,21 @@
             </ImageView>
          </graphic>
       </ToggleButton>
-      <Text layoutX="189.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount of fine received:" />
-      <Text layoutX="549.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount of fines paid:" />
-      <Text layoutX="189.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Outstanding fines:" />
-      <Text layoutX="544.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total black points earned:" />
-      <TextField layoutX="549.0" layoutY="307.0" />
-      <TextField layoutX="189.0" layoutY="296.0" />
-      <TextField layoutX="189.0" layoutY="378.0" />
-      <TextField layoutX="547.0" layoutY="378.0" />
+      <Text layoutX="156.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the official land registration app of Bangladesh. Our aim is to help you exprience a hassle-free service as a government official." wrappingWidth="736.13671875" />
+      <ImageView fitHeight="105.0" fitWidth="124.0" layoutX="779.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="205.0" layoutX="162.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../bdg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="149.0" layoutX="450.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../smart%20loog.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

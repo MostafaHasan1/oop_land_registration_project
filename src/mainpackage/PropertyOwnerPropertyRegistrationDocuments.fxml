@@ -5,7 +5,6 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -13,7 +12,8 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
    <children>
       <ScrollBar layoutX="896.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="14.0" />
       <Separator layoutX="148.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="7.0" />
@@ -66,7 +66,7 @@
             <Image url="@../../../../download.png" />
          </image>
       </ImageView>
-      <Text layoutX="173.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Fines and Penalties" wrappingWidth="305.634765625">
+      <Text layoutX="173.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Transactions" wrappingWidth="234.634765625">
          <font>
             <Font name="Symbol" size="30.0" />
          </font>
@@ -89,13 +89,5 @@
             </ImageView>
          </graphic>
       </ToggleButton>
-      <Text layoutX="189.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount of fine received:" />
-      <Text layoutX="549.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount of fines paid:" />
-      <Text layoutX="189.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Outstanding fines:" />
-      <Text layoutX="544.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total black points earned:" />
-      <TextField layoutX="549.0" layoutY="307.0" />
-      <TextField layoutX="189.0" layoutY="296.0" />
-      <TextField layoutX="189.0" layoutY="378.0" />
-      <TextField layoutX="547.0" layoutY="378.0" />
    </children>
 </AnchorPane>

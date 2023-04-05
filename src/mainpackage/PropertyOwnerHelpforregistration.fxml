@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollBar layoutX="896.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="14.0" />
+      <Separator layoutX="148.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="7.0" />
+      <MenuButton centerShape="false" layoutY="318.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="195.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="220.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="245.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="270.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton centerShape="false" layoutY="295.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <ImageView fitHeight="193.0" fitWidth="744.0" layoutX="152.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Banner-738x280_04.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../download.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="173.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help for Registration" wrappingWidth="276.634765625">
+         <font>
+            <Font name="Symbol" size="30.0" />
+         </font>
+      </Text>
+      <ToggleButton contentDisplay="RIGHT" layoutX="21.0" layoutY="450.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ToggleButton contentDisplay="RIGHT" layoutX="92.0" layoutY="450.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <Text layoutX="173.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For further information please dial our hotline 16122 or simply leave us your feedback or enquire in the section below. We will get back to you shortly. " wrappingWidth="620.548828125" />
+      <Text layoutX="186.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name:" />
+      <Text layoutX="187.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:" />
+      <Text layoutX="186.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
+      <Text layoutX="158.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+880" />
+      <TextField layoutX="182.0" layoutY="341.0" />
+      <TextField layoutX="187.0" layoutY="457.0" />
+      <TextField layoutX="184.0" layoutY="397.0" />
+      <TextArea layoutX="517.0" layoutY="351.0" prefHeight="146.0" prefWidth="353.0" />
+      <Text layoutX="517.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please write you suggestions and equiry here" />
+   </children>
+</AnchorPane>
