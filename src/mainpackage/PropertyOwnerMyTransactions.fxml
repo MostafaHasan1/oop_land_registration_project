@@ -5,7 +5,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -13,12 +13,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ScrollBar layoutX="898.0" layoutY="13.0" orientation="VERTICAL" prefHeight="460.0" prefWidth="14.0" />
-      <Separator layoutX="148.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="8.0" />
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="313.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
+      <ScrollBar layoutX="886.0" orientation="VERTICAL" prefHeight="495.0" prefWidth="14.0" />
+      <Separator layoutX="148.0" layoutY="-5.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="7.0" />
+      <MenuButton centerShape="false" layoutY="332.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Others">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -27,72 +26,80 @@
             <Insets />
          </opaqueInsets>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="191.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
+      <MenuButton centerShape="false" layoutY="210.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Information">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="1.0" layoutY="216.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
+      <MenuButton centerShape="false" layoutY="235.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="News and Updates">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="241.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
+      <MenuButton centerShape="false" layoutY="260.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Ownership">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="266.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
+      <MenuButton centerShape="false" layoutY="285.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Registration">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <MenuButton centerShape="false" layoutX="2.0" layoutY="291.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
+      <MenuButton centerShape="false" layoutY="310.0" mnemonicParsing="false" opacity="0.74" popupSide="LEFT" prefHeight="25.0" prefWidth="149.0" text="Documents">
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
-      <ImageView fitHeight="190.0" fitWidth="779.0" layoutX="152.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="189.0" fitWidth="734.0" layoutX="152.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/Banner-738x280_04.png" />
+            <Image url="@../../../../Banner-738x280_04.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="146.0" fitWidth="149.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Desktop/download.png" />
+            <Image url="@../../../../download.png" />
          </image>
       </ImageView>
-      <Text layoutX="171.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Transactions" wrappingWidth="229.634765625">
+      <Text layoutX="172.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Transactions" wrappingWidth="234.634765625">
          <font>
             <Font name="Symbol" size="30.0" />
          </font>
       </Text>
-      <Text layoutX="-21.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
-      <TextArea layoutX="171.0" layoutY="264.0" prefHeight="62.0" prefWidth="200.0" text="Properties Owned:" />
-      <TextArea layoutX="409.0" layoutY="263.0" prefHeight="62.0" prefWidth="200.0" text="Area of land owned (sq. m):" />
-      <TextArea layoutX="651.0" layoutY="262.0" prefHeight="62.0" prefWidth="200.0" text="Properties for processing:" />
-      <ToggleButton contentDisplay="RIGHT" layoutX="20.0" layoutY="424.0" mnemonicParsing="false">
+      <ToggleButton contentDisplay="RIGHT" layoutX="11.0" layoutY="441.0" mnemonicParsing="false">
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/back.png" />
+                  <Image url="@../../../../home.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
-      <ToggleButton contentDisplay="RIGHT" layoutX="92.0" layoutY="422.0" mnemonicParsing="false">
+      <ToggleButton contentDisplay="RIGHT" layoutX="82.0" layoutY="441.0" mnemonicParsing="false">
          <graphic>
             <ImageView fitHeight="49.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Desktop/home.png" />
+                  <Image url="@../../../../back.png" />
                </image>
             </ImageView>
          </graphic>
       </ToggleButton>
+      <Text layoutX="197.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Number of Properties Bought:" />
+      <Text layoutX="197.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Number of Properties Sold:" />
+      <Text layoutX="197.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Number of transactions:" />
+      <Text layoutX="586.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Cost of Properties Sold:" />
+      <Text layoutX="586.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Cost of Properties Sold:" />
+      <Text layoutX="588.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net amount of Transactions:" />
+      <TextField layoutX="407.0" layoutY="269.0" />
+      <TextField layoutX="407.0" layoutY="373.0" />
+      <TextField layoutX="407.0" layoutY="323.0" />
+      <TextField layoutX="759.0" layoutY="269.0" prefHeight="25.0" prefWidth="117.0" />
+      <TextField layoutX="759.0" layoutY="323.0" prefHeight="25.0" prefWidth="117.0" />
+      <TextField layoutX="759.0" layoutY="373.0" prefHeight="25.0" prefWidth="117.0" />
    </children>
 </AnchorPane>

@@ -21,7 +21,8 @@ public class LawyerDashboardSceneController implements Initializable {
     @FXML
     private ListView<String> lawyerEventList;
     
-    String[] LawyerEventList = {"Dashboard", "Cases", "Clint messeages","Query", "Profile", "Sing out"};
+    String[] LawyerEventList = {"Dashboard", "Cases", "Clint messeages",
+                                "Government notices", "Transaction", "Query", "Profile", "Sing out"};
     String selectedListEvent;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
